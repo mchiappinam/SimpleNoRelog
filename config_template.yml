@@ -1,0 +1,16 @@
+timeInCombat: 10
+whenRelog:
+  killPlayer: true
+  showDontKillPlayerMsg: true
+  executeCmd: ''
+executeWhenQuitReason:
+  genericreason: true
+  endofstream: true
+  quitting: true
+  overflow: false
+  timeout: false
+executeWhenKickReasonContains:
+- 'spam'
+block:
+  commands: true
+  teleport: false
